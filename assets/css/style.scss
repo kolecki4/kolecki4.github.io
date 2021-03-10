@@ -1,0 +1,17 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+	margin-left: 10%;
+	margin-top: 10%;
+	margin-right: 10%;
+	color: #cccccc;
+	font-family: Arial, sans-serif;
+
+	
+	background: url("Measuring Elemental Abundances in Metal-Poor Stars.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}

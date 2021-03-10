@@ -11,7 +11,8 @@ body {
 	font-family: Tahoma, sans-serif;
 
 	
-	background: url("../../../MyFirstPaper.png");
+	#background: url("../../../MyFirstPaper.png");
+	background-image: linear-gradient(to right, #2222222, #440044);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-color: #111111;

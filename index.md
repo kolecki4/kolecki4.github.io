@@ -3,9 +3,7 @@
 
 <img align="left" src="MyFirstPaper.png" width="300" height="420" alt="aaaaaaaaa">
 
-I'm currently working as a researcher at The Ohio State University, where I completed my B.S. in Astronomy and Astrophysics with a minor in Computational and Informational Sciences in December of 2020.
-
-ouhdgaoihseihosehistrilehiowshiowshio;e huio;aeoih;ae hio;aer 
+I'm currently working as a researcher at The Ohio State University, where I completed my B.S. in Astronomy and Astrophysics with a minor in Computational and Informational Sciences in December of 2020. ouhdgaoihseihosehistrilehiowshiowshio;e huio;aeoih;ae hio;aer 
 
 
 You can use the [editor on GitHub](https://github.com/kolecki4/kolecki4.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.

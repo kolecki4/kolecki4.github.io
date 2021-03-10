@@ -3,7 +3,7 @@
 
 <img src="MyFirstPaper.png" width="300" height="420" alt="aaaaaaaaa">
 
-## About Me
+### About Me
 I'm currently working as a researcher at The Ohio State University, where I completed my B.S. in Astronomy and Astrophysics with a minor in Computational and Informational Sciences in December of 2020. 
 
 

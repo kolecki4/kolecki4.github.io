@@ -5,6 +5,8 @@
 
 I'm currently working as a researcher at The Ohio State University, where I completed my B.S. in Astronomy and Astrophysics with a minor in Computational and Informational Sciences in December of 2020.
 
+ouhdgaoihseihosehistrhiowshiowshio;e huio;aeoih;ae hio;aer 
+
 
 You can use the [editor on GitHub](https://github.com/kolecki4/kolecki4.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 

@@ -4,9 +4,9 @@
 @import "{{ site.theme }}";
 
 body {
-	margin-left: 10%;
-	margin-top: 10%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-right: 5%;
 	color: #cccccc;
 	font-family: Tahoma, sans-serif;
 
@@ -18,33 +18,37 @@ body {
 	#background-color: #111111;
 }
 
+img{
+	float: left;
+}
+
 h1{
 	font-family: Tahoma, sans-serif;
-	color: #aaaaaa;
+	color: #dddddd;
 	text-align: center;
 }
 h2{
 	font-family: Tahoma, sans-serif;
-	color: #aaaaaa;
+	color: #dddddd;
 	text-align: center;
 }
 h3{
 	font-family: Tahoma, sans-serif;
-	color: #aaaaaa;
+	color: #dddddd;
 	text-align: center;
 }
 h4{
 	font-family: Tahoma, sans-serif;
-	color: #aaaaaa;
+	color: #dddddd;
 	text-align: center;
 }
 h5{
 	font-family: Tahoma, sans-serif;
-	color: #aaaaaa;
+	color: #dddddd;
 	text-align: center;
 }
 h6{
 	font-family: Tahoma, sans-serif;
-	color: #aaaaaa;
+	color: #dddddd;
 	text-align: center;
 }

@@ -1,4 +1,4 @@
-# Jared Kolecki
+# Jared Kolecki's Personal Webpage
 
 
 <img src="MyFirstPaper.png" width="300" height="420" alt="aaaaaaaaa">

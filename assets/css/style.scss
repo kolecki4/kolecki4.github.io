@@ -4,9 +4,9 @@
 @import "{{ site.theme }}";
 
 body {
-	margin-left: 5%;
+	margin-left: 8%;
 	margin-top: 5%;
-	margin-right: 5%;
+	margin-right: 8%;
 	color: #cccccc;
 	font-family: Tahoma, sans-serif;
 
@@ -20,6 +20,7 @@ body {
 
 img{
 	float: left;
+	margin: 5px;
 }
 
 h1{

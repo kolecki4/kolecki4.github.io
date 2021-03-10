@@ -1,7 +1,7 @@
 # Jared Kolecki
 
 
-<img src="MyFirstPaper.png" width="250" height="350" alt="aaaaaaaaa" align="left">
+<img src="MyFirstPaper.png" width="300" height="420" alt="aaaaaaaaa">
 
 I'm currently working as a researcher at The Ohio State University, where I completed my B.S. in Astronomy and Astrophysics with a minor in Computational and Informational Sciences in December of 2020. 
 

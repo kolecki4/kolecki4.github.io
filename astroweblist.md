@@ -15,20 +15,34 @@
 
 #### Stellar Astrophysics
 ##### Model Atmosphere Grids
+###### ATLAS and Kurucz Atmospheres:
+
 [ATLAS-APOGEE](http://research.iac.es/proyecto/ATLAS-APOGEE/): Calculated using the ATLAS9 code originally for use by APOGEE.
 -  3500 < T_{eff} < 30000
 -  -5.0 < [Fe/H] < +1.5
 -  -1.5 < [alpha/M] < +1.0
 -  -1.5 < [carbon/M] < +1.0
 
-[PHOENIX (Goettingen)](https://phoenix.astro.physik.uni-goettingen.de/?page_id=109): Calculated for the Goettingen Spectral Library using the PHOENIX code (Better for cool stars and brown dwarfs).
+Kurucz Grids (WIP)
+
+###### MARCS Model Atmospheres
+...
+
+###### PHOENIX Grids (More accurate structures for M-dwarfs and brown dwarfs)
+[PHOENIX (Goettingen)](https://phoenix.astro.physik.uni-goettingen.de/?page_id=109): Calculated for the Goettingen Spectral Library using the PHOENIX code.
 - [wider T_{eff} range]
 - -4.0 < [Fe/H] < +1.0
 - -0.2 < [alpha/M] < +1.2
 
+[PHOENIX (ENS Lyon, France Allard)](https://phoenix.ens-lyon.fr/simulator-jsf22-26/index.faces): Multiple PHOENIX grids with varying underlying physics as described by [Allard 2016](https://ui.adsabs.harvard.edu/abs/2016sf2a.conf..223A/abstract). BT-Settl are the most up-to-date models.
+- 1500 < T_{eff} < 15000
+- -2.5 < [Fe/H] < +0.5
+- +0.0 < [alpha/M] < +0.4
+- 
+
 Kurucz, PHOENIX (Allard and Goettingen)
 
-##### Synthetic Spectra
+Synthetic Spectra
 APOGEE, PHOENIX, ...
 
 ##### Stellar Structure Code

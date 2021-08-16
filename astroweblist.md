@@ -23,7 +23,8 @@
 -  -1.5 < [alpha/M] < +1.0
 -  -1.5 < [carbon/M] < +1.0
 
-Kurucz Grids (WIP)
+[Kurucz Grids](http://kurucz.harvard.edu/grids.html): A variety of archived model atmosphere grids. Castelli and ODFNEW are the most recent options
+- (Put in parameter range and such)
 
 ###### MARCS Model Atmospheres
 ...
@@ -38,7 +39,7 @@ Kurucz Grids (WIP)
 - 1500 < T_{eff} < 15000
 - -2.5 < [Fe/H] < +0.5
 - +0.0 < [alpha/M] < +0.4
-- 
+- C/O enhancement available
 
 Kurucz, PHOENIX (Allard and Goettingen)
 

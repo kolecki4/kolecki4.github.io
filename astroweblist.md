@@ -19,5 +19,11 @@
   3500 < T_{eff} < 30000
   -5.0 < [Fe/H] < +1.5
 
+Kurucz, PHOENIX (Allard and Goettingen)
 
+##### Synthetic Spectra
+APOGEE, PHOENIX, ...
+
+##### Stellar Structure Code
+MOOG, ...
 WIP

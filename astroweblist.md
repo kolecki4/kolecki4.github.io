@@ -12,4 +12,12 @@
 [SMOKA (Subaru Telescope Archive)](https://smoka.nao.ac.jp/): Contains only raw data, and I am unaware of any Subaru-specific data reduction tools.
 
 ### Useful Programs and Other Code
+
+#### Stellar Astrophysics
+##### Model Atmospheres
+[ATLAS-APOGEE](http://research.iac.es/proyecto/ATLAS-APOGEE/): ATLAS9 grids originally calculated for use by APOGEE
+  3500 < T_{eff} < 30000
+  -5.0 < [Fe/H] < +1.5
+
+
 WIP

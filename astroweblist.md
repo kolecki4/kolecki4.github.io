@@ -14,10 +14,17 @@
 ### Useful Programs and Other Code
 
 #### Stellar Astrophysics
-##### Model Atmospheres
-[ATLAS-APOGEE](http://research.iac.es/proyecto/ATLAS-APOGEE/): ATLAS9 grids originally calculated for use by APOGEE
-  3500 < T_{eff} < 30000
-  -5.0 < [Fe/H] < +1.5
+##### Model Atmosphere Grids
+[ATLAS-APOGEE](http://research.iac.es/proyecto/ATLAS-APOGEE/): Calculated using the ATLAS9 code originally for use by APOGEE.
+-  3500 < T_{eff} < 30000
+-  -5.0 < [Fe/H] < +1.5
+-  -1.5 < [alpha/M] < +1.0
+-  -1.5 < [carbon/M] < +1.0
+
+[PHOENIX (Goettingen)](https://phoenix.astro.physik.uni-goettingen.de/?page_id=109): Calculated for the Goettingen Spectral Library using the PHOENIX code (Better for cool stars and brown dwarfs).
+- [wider T_{eff} range]
+- -4.0 < [Fe/H] < +1.0
+- -0.2 < [alpha/M] < +1.2
 
 Kurucz, PHOENIX (Allard and Goettingen)
 

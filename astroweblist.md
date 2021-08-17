@@ -6,8 +6,13 @@
 [ESO Phase 3 Archive](http://archive.eso.org/wdb/wdb/adp/phase3_main/form): For reduced data from the European Southern Observatory.
 
 [ESO Main Data Archive](http://archive.eso.org/eso/eso_archive_main.html): Contains a wider range of instruments, but features only raw, unreduced data.
-
+- [Data reduction tools](https://www.eso.org/sci/software/pipelines/) and an [FAQ page](https://www.eso.org/sci/data-processing/faq.html)
+- 
 [Keck Observatory Archive](https://koa.ipac.caltech.edu/cgi-bin/KOA/nph-KOAlogin): For raw, unreduced data from the Keck Telescope.
+- [Data reduction tools](https://www2.keck.hawaii.edu/koa/public/drp.html)
+
+[LBT Archive](http://tuc-archiveweb.tucson.lbto.org/) Raw data from the Large Binocular Telescope
+- [Data reduction tools](https://sites.google.com/a/lbto.org/science-operations/pipeline)
 
 [SMOKA (Subaru Telescope Archive)](https://smoka.nao.ac.jp/): Contains only raw data, and I am unaware of any Subaru-specific data reduction tools.
 

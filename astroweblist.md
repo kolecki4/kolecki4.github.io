@@ -54,7 +54,7 @@
 - -0.2 < [alpha/M] < +1.2
 
 
-[PHOENIX (ENS Lyon, France Allard)](https://phoenix.ens-lyon.fr/simulator-jsf22-26/index.faces): Multiple PHOENIX grids with varying underlying physics as described by [Allard 2016](https://ui.adsabs.harvard.edu/abs/2016sf2a.conf..223A/abstract). BT-Settl are the most up-to-date models.
+[PHOENIX (ENS Lyon, France Allard)](https://phoenix.ens-lyon.fr/simulator-jsf22-26/index.faces): Multiple PHOENIX grids with varying underlying physics (citation: [Allard 2016](https://ui.adsabs.harvard.edu/abs/2016sf2a.conf..223A/abstract)). BT-Settl are the most up-to-date models, with the paper detailing the differences between then.
 - 1500 < T_{eff} < 15000
 - -2.5 < [Fe/H] < +0.5
 - +0.0 < [alpha/M] < +0.4

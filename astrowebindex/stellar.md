@@ -4,7 +4,7 @@
 
 ### ATLAS and Kurucz Atmospheres:
 
-[ATLAS-APOGEE](http://research.iac.es/proyecto/ATLAS-APOGEE/): Calculated using the ATLAS9 code originally for use by APOGEE (citation: [Meszaros et al. 2012](https://ui.adsabs.harvard.edu/abs/2012AJ....144..120M/abstract))
+[ATLAS-APOGEE](http://research.iac.es/proyecto/ATLAS-APOGEE/): Calculated using the ATLAS9 code originally for use by APOGEE (citation: [Meszaros et al. 2012](https://ui.adsabs.harvard.edu/abs/2012AJ....144..120M/abstract)).
 -  3500 < T_{eff} < 30000
 -  0.0 < log(g) < 5.0
 -  -5.0 < [Fe/H] < +1.5
@@ -12,7 +12,7 @@
 -  -1.5 < [carbon/M] < +1.0
 
 
-[Kurucz's Grids](http://kurucz.harvard.edu/grids.html): A variety of archived model atmosphere grids. Castelli (citation: [Castelli & Kurucz 2003](https://ui.adsabs.harvard.edu/abs/2003IAUS..210P.A20C/abstract))is the newest model group of these
+[Kurucz's Grids](http://kurucz.harvard.edu/grids.html): A variety of archived model atmosphere grids. Castelli (citation: [Castelli & Kurucz 2003](https://ui.adsabs.harvard.edu/abs/2003IAUS..210P.A20C/abstract)) is the newest model group of these.
 - 3500 < T_{eff} < 50000
 - 0.0 < log(g) < 5.0
 - -4.0 < [Fe/H] < +0.5
@@ -20,7 +20,7 @@
 
 
 ### MARCS Model Atmospheres
-[MARCS Homepage](https://marcs.astro.uu.se/index.php) Calculated using the MARCS code (citation: [Gustafsson et al. 2008](https://ui.adsabs.harvard.edu/abs/2008A%26A...486..951G/abstract))
+[MARCS Homepage](https://marcs.astro.uu.se/index.php) Calculated using the MARCS code (citation: [Gustafsson et al. 2008](https://ui.adsabs.harvard.edu/abs/2008A%26A...486..951G/abstract)).
 - 2500 < T_{eff} < 8000
 - -1.0 < log(g) < 5.0
 - -5.0 < [Fe/H] < +1.0
@@ -39,6 +39,7 @@
 
 [PHOENIX (France Allard)](https://phoenix.ens-lyon.fr/simulator-jsf22-26/index.faces): Multiple PHOENIX grids with varying underlying physics (citation: [Allard 2016](https://ui.adsabs.harvard.edu/abs/2016sf2a.conf..223A/abstract)). BT-Settl are the most up-to-date models, with the paper detailing the differences between then.
 - 1500 < T_{eff} < 70000
+- 0.0 < log(g) < 5.5
 - -2.5 < [Fe/H] < +0.5
 - +0.0 < [alpha/M] < +0.4
 - C/O enhancement available

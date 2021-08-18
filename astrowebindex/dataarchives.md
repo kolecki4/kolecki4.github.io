@@ -13,7 +13,7 @@
 - [Data reduction tools](https://www2.keck.hawaii.edu/koa/public/drp.html)
 
 ### Large Binocular Telescope (LBT)
-[LBT Archive](http://tuc-archiveweb.tucson.lbto.org/) Raw data from the Large Binocular Telescope
+[LBT Archive](http://tuc-archiveweb.tucson.lbto.org/): Raw data from the Large Binocular Telescope
 - [Data reduction tools](https://sites.google.com/a/lbto.org/science-operations/pipeline)
 
 ### Subaru Telescope

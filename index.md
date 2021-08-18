@@ -11,6 +11,6 @@
   My research thus far has focused on getting metallicity and elemental abundance data for stars using spectroscopy. In this process, I have developed a pipeline which automates much of the work associated with this process. This includes calculating equivalent widths, deriving stellar parameters, getting an appropriate model atmosphere, running MOOG, and finally, calculation of uncertainties. While currently only useful for solar-type stars, my next project involves expanding this functionality to include M-dwarfs, as these cool, dim stars have become prime targets for exoplanet surveys.
 
 ### List of Projects
-[Useful Links](astroweblist.md): In my limited time in the field of astronomy, I've realized how difficult it is to find things if you don't know exactly where to look. This is a list of websites that I hope will make life easier for those just starting out, and hopefully generally become a useful web index for general astronomical purposes.
+[Useful Links](astrowebindex/main.md): In my limited time in the field of astronomy, I've realized how difficult it is to find things if you don't know exactly where to look. This is a list of websites that I hope will make life easier for those just starting out, and hopefully generally become a useful web index for general astronomical purposes.
 
 [PyKMOD](pykmod.md): This is a Kurucz model atmosphere interpolator for Python, based on the original IDL tool written by Carlos Allende-Prieto.

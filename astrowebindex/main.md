@@ -4,8 +4,6 @@ This page, I hope, will grow into a hub through which astronomers will have a fa
 
 
 ## Entries by Topic
-### [Telescope Data Archives](dataarchives.md)
-A one-stop shop for all your data needs!
+#### [Telescope Data Archives](dataarchives.md): A one-stop shop for all your data needs!
 
-### [Stellar Astrophysics](stellar.md)
-Model atmospheres, synthetic spectra, radiative transfer code, chemical abundance analysis tools etc
+#### [Stellar Astrophysics](stellar.md): Model atmospheres, synthetic spectra, radiative transfer code, chemical abundance analysis tools etc

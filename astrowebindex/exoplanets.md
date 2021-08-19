@@ -5,7 +5,6 @@
 [Lightkurve](https://docs.lightkurve.org/) (Python, last updated Mar 2021): Utility for downloading & analyzing light curves and target pixel files from Kepler, K-2, and TESS. The developers are actively adding new analysis tools (citation: [???](???)).
 
 [Wotan](https://github.com/hippke/wotan) (Python, last updated Oct 2020): Contains dozens algorithms for reducing, detrending, and analyzing light curve data. (citation: [Hippke et al. 2019](https://ui.adsabs.harvard.edu/abs/2019AJ....158..143H/abstract)
-# WIP
 
 [MulensModel](https://github.com/rpoleski/MulensModel) (Python, last updated Jun 2021): Modeling software for microlensing events which can then be used to compare against observed data (citation: [Poleski & Yi 2019](https://ui.adsabs.harvard.edu/abs/2019A%26C....26...35P/abstract)).
 

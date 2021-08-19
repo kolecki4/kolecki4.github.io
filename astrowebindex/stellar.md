@@ -44,6 +44,18 @@
 - +0.0 < [alpha/M] < +0.4
 - C/O enhancement available
 
+[APOGEE] (need link)
+
+## Spectral Line Databases
+[NIST ASD](https://physics.nist.gov/PhysRefData/ASD/lines_form.html): How to cite: https://physics.nist.gov/PhysRefData/ASD/Html/verhist.shtml
+
+## Stellar Structure Code
+[Spectroscopy Made Easy (SME)](https://www.stsci.edu/~valenti/sme.html) (IDL, last updated Feb 2020): Synthetic spectrum fitting for deriving abundances and stellar parameters (citation: [Piskunov & Valenti 2016](https://ui.adsabs.harvard.edu/abs/2017A%26A...597A..16P/abstract)).
+
+[MOOG](http://www.as.utexas.edu/~chris/moog.html) (Fortran, last updated Nov 2019): Force-fitting abundances based on equivalent widths, synthetic spectrum fitting, and other routines are available in this LTE analysis program (citation: [Sneden 1973](https://ui.adsabs.harvard.edu/abs/1973ApJ...184..839S/abstract)). Note: Plotting functionality requires the paid Fortran graphics package SM. 
+
+[PyMOOGi](https://github.com/madamow/pymoogi) (Python/Fortran, last updated Aug 2020): Adaptations of the equivalent width, abundance-fitting, and spectrum synthesis functionalities of MOOG for use with Python's matplotlib (citation: https://ui.adsabs.harvard.edu/abs/2017AAS...23021607A/abstract).
+
 ## Synthetic Spectra
 [PHOENIX Grids (Goettingen)](https://phoenix.astro.physik.uni-goettingen.de/?page_id=10): Calculated for the Goettingen Spectral Library using the PHOENIX code (citation: [Husser et al. 2013](https://ui.adsabs.harvard.edu/abs/2013A%26A...553A...6H/abstract)).
 - High- and medium-resolution spectra available
@@ -52,12 +64,3 @@
 - 0.0 < log(g) < 6.0
 - -4.0 < [Fe/H] < +1.0
 - -0.2 < [alpha/M] < +1.2
-
-[APOGEE] (need link)
-
-## Stellar Structure Code
-[Spectroscopy Made Easy (SME)](https://www.stsci.edu/~valenti/sme.html) (IDL, last updated Feb 2020): Synthetic spectrum fitting for deriving abundances and stellar parameters (citation: [Piskunov & Valenti 2016](https://ui.adsabs.harvard.edu/abs/2017A%26A...597A..16P/abstract)).
-
-[MOOG](http://www.as.utexas.edu/~chris/moog.html) (Fortran, last updated Nov 2019): Force-fitting abundances based on equivalent widths, synthetic spectrum fitting, and other routines are available in this LTE analysis program (citation: [Sneden 1973](https://ui.adsabs.harvard.edu/abs/1973ApJ...184..839S/abstract)). Note: Plotting functionality requires the paid Fortran graphics package SM. 
-
-[PyMOOGi](https://github.com/madamow/pymoogi) (Python/Fortran, last updated Aug 2020): Adaptations of the equivalent width, abundance-fitting, and spectrum synthesis functionalities of MOOG for use with Python's matplotlib (citation: https://ui.adsabs.harvard.edu/abs/2017AAS...23021607A/abstract).

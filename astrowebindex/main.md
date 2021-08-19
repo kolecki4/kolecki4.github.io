@@ -8,4 +8,7 @@ This page, I hope, will grow into a hub through which astronomers will have a fa
 <center> A one-stop shop for all your data needs! </center>
 
 #### [Stellar Astrophysics](stellar.md)
-<center> Model atmospheres, synthetic spectra, radiative transfer code, chemical abundance analysis tools etc </center>
+<center> Model atmospheres, synthetic spectra, radiative transfer code, chemical abundance analysis tools, etc. </center>
+
+#### [Exoplanets](exoplanets.md)
+<center> Light curve/radial velocity analysis, n-body simulators, planet/atmosphere composition retrieval, and more! </center>

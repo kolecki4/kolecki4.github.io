@@ -47,7 +47,9 @@
 [APOGEE] (need link)
 
 ## Spectral Line Databases
-[NIST ASD](https://physics.nist.gov/PhysRefData/ASD/lines_form.html): How to cite: https://physics.nist.gov/PhysRefData/ASD/Html/verhist.shtml
+[NIST ASD](https://physics.nist.gov/PhysRefData/ASD/lines_form.html): A number of formatting options for output data can be selected by clicking on the "Show Advanced Settings" button. How to cite: https://physics.nist.gov/PhysRefData/ASD/Html/verhist.shtml
+
+[VALD] (need link)
 
 ## Stellar Structure Code
 [Spectroscopy Made Easy (SME)](https://www.stsci.edu/~valenti/sme.html) (IDL, last updated Feb 2020): Synthetic spectrum fitting for deriving abundances and stellar parameters (citation: [Piskunov & Valenti 2016](https://ui.adsabs.harvard.edu/abs/2017A%26A...597A..16P/abstract)).

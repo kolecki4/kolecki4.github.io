@@ -12,6 +12,9 @@
 ### Gemini Observatory
 [Gemini Observatory Archive](https://archive.gemini.edu/searchform/): For raw and reduced data products from the Gemini Observatory
 
+### Gran Telescopia Canarias
+[GTC Archive](http://gtc.sdc.cab.inta-csic.es/gtc/index.jsp): For raw and reduced data products of the GTC.
+
 ### Infrared Science Archive (NASA/IPAC)
 [IRSA Homepage](https://irsa.ipac.caltech.edu/frontpage/): Contains data from numerous telescopes, including but not limited to WISE, 2MASS, Spitzer, and the Planck Telescope.
 

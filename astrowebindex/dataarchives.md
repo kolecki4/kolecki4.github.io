@@ -18,6 +18,9 @@
 ### Gran Telescopia Canarias
 [GTC Archive](http://gtc.sdc.cab.inta-csic.es/gtc/index.jsp): For raw and reduced data products of the GTC.
 
+### INAF Italian Center for Astronomical Archives (IA2)
+[IA2 Homepage](https://www.ia2.inaf.it/): Some data archives listed here (LBT, TNG) are run by IA2, as well as others, which are listed at the bottom of their main page.
+
 ### Infrared Science Archive (NASA/IPAC)
 [IRSA Homepage](https://irsa.ipac.caltech.edu/frontpage/): Contains data from numerous telescopes, including but not limited to WISE, 2MASS, Spitzer, and the Planck Telescope.
 

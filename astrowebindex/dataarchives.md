@@ -4,7 +4,7 @@
 [CAHA](http://caha.sdc.cab.inta-csic.es/calto/jsp/searchform.jsp): For mostly raw data from Calar Alto. CARMENES does have reduced data products available, which are also available at the CARMENES-specific archive [here](http://carmenes.cab.inta-csic.es/gto/welcome.action).
 
 ### Canada-France-Hawaii Telescope (CFHT)
-[CFHT Science Archive](https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/cfht/) Contains both raw and reduced products.
+[CFHT Science Archive](https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/cfht/): Contains both raw and reduced products.
 
 ### European Southern Observatory (ESO)
 [ESO Phase 3 Archive](http://archive.eso.org/wdb/wdb/adp/phase3_main/form): For reduced data from the European Southern Observatory.

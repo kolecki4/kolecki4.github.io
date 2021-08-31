@@ -38,3 +38,6 @@
 
 ### Subaru Telescope
 [SMOKA](https://smoka.nao.ac.jp/): Contains only raw data, and I am unaware of any Subaru-specific data reduction tools.
+
+### Telescopio Nazionale Galileo (TNG)
+[TNG Archive](http://archives.ia2.inaf.it/tng/): Contains only raw data

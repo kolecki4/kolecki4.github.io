@@ -5,10 +5,10 @@ This page, I hope, will grow into a hub through which astronomers will have a fa
 
 ## Entries by Topic
 #### [Telescope Data Archives](dataarchives.md)
-<center> A one-stop shop for all your data needs! </center>
+A one-stop shop for all your data needs!
 
 #### [Stellar Astrophysics](stellar.md)
-<center> Model atmospheres, synthetic spectra, radiative transfer code, chemical abundance analysis tools, etc. </center>
+Model atmospheres, synthetic spectra, radiative transfer code, chemical abundance analysis tools, etc.
 
 #### [Exoplanets](exoplanets.md)
-<center> Light curve/radial velocity analysis, n-body simulators, planet/atmosphere composition retrieval, and more! </center>
+Light curve/radial velocity analysis, n-body simulators, planet/atmosphere composition retrieval, and more!

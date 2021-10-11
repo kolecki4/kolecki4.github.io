@@ -4,6 +4,8 @@ Planning on running abfind on MOOG? You're going to need to measure equivalent w
 This is a program capable of measuring these absorption lines by a number of different ways: just using the observed spectrum, fitting a Gaussian model, or fitting a Voigt model. Or you can make it do all three and decide for yourself which fits best.
 
 ### Setting Up GVOD
+Direct download link [here](https://github.com/kolecki4/GVOD/archive/refs/heads/main.zip)
+
 Firstly, you'll need to open Settings.py and modify it accordingly. In order, the parameters are as follows:
 
 ##### filename
@@ -50,11 +52,11 @@ If true, the final line list will be immediately readable by MOOG, else it will 
 ### Using GVOD
 After verifying that your settings are correct, run ```python GVOD.py``` in terminal. Once GVOD has read the sprectrum and found the line features in it, it will display them to you as in the images shown here.
 
-<img src="GVODplots.png">
+<img src="assets/GVODplots.png">
 
 The plots overlay the fits to the observed spectrum as well as the observed spectrum itself. The right-most plot shows the range of the spectrum used in the equivalent width measurement, along with the surrounding area as a check against improper continuum detection.
 
-<img src="GVODcli.png">
+<img src="assets/GVODcli.png">
 
 
 The terminal prompts will ask you what you would like to do for the given spectral line, which is read in as one-character inputs. 

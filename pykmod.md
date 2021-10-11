@@ -25,5 +25,5 @@ python
 from pyKMOD.pykmod import pykmod
 
 pykmod(Teff,logg,vmicro,FeH,outfile)
-<\code>
+</code>
 In this case an output file path is required

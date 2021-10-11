@@ -20,9 +20,10 @@ python pykmod.py (Teff (K)) (logg ([cm/s^2])) (vmicro (km/s)) ([Fe/H] (dex)) [ou
 The output file path is optional. If none is provided, it will default to a file named "modelatmosphere.txt" in the PyKMOD directory.
 
 #### As Python Module
-```python
+<code>
+python
 from pyKMOD.pykmod import pykmod
 
 pykmod(Teff,logg,vmicro,FeH,outfile)
-```
+<\code>
 In this case an output file path is required

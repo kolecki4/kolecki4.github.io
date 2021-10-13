@@ -14,3 +14,4 @@
 
 [petitRADTRANS](https://petitradtrans.readthedocs.io/en/latest/) (Python, last updated Aug 2021): Software for computing transmission and emission spectra of exoplanets (citation: [Molliere et al. 2019](https://ui.adsabs.harvard.edu/abs/2019A%26A...627A..67M/abstract)).
 
+[RadVel](https://github.com/California-Planet-Search/radvel) (Python, last updated Jul 2021): Convenient Keplerian modeling for exoplanet characterization based on radial velocity data (citation: [Fulton et al. 2018](https://ui.adsabs.harvard.edu/abs/2018PASP..130d4504F/abstract))

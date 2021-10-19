@@ -22,6 +22,6 @@
 ### Bookmarks
 **(External links that, while not strictly academic in nature, are exoplanet-related and relatively interesting)**
 
-[https://www.centauri-dreams.org/](Centauri Dreams): A blog by author Paul Gilster summarizing academic papers realted to exoplanetary and space-travel-related sciences
+[Centauri Dreams](https://www.centauri-dreams.org/): A blog by author Paul Gilster summarizing academic papers realted to exoplanetary and space-travel-related sciences
 
-[https://exoplanets.nasa.gov/eyes-on-exoplanets/](NASA Eyes On Exoplanets): High-quality 3D CGI visualizations of confirmed exoplanetary systems
+[NASA's Eyes On Exoplanets](https://exoplanets.nasa.gov/eyes-on-exoplanets/): High-quality 3D CGI visualizations of confirmed exoplanetary systems

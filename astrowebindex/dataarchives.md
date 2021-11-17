@@ -43,4 +43,4 @@
 [SMOKA](https://smoka.nao.ac.jp/): Contains only raw data, and I am unaware of any Subaru-specific data reduction tools.
 
 ### Telescopio Nazionale Galileo (TNG)
-[TNG Archive](http://archives.ia2.inaf.it/tng/): Reduced products are interspersed with raw data with no explicit flag to tell the difference. For GIANO-B spectra, the reduced, 1D spectrum files have names which end in "ms1d".
+[TNG Archive](http://archives.ia2.inaf.it/tng/): Reduced products are interspersed with raw data with no explicit flag to tell the difference. For example, in GIANO-B spectra, the reduced, 1D spectrum files have names which end in "ms1d".

@@ -15,13 +15,6 @@
 
 [AstroWeb Index](astrowebindex/main.md): In my limited time in the field of astronomy, I've realized, in some cases, how difficult it can be to find things (whether data archives, download links for programs, code tutorials, etc.) if you don't know exactly where to look. I started compiling these links as I found them for myself, and realized it may be helpful to organize them and make the list public. Thus, my hope is that the AstroWeb Index becomes a valuable landing page for those looking for items for their astrophysical research.
 
-[GVOD](gvod.md): A utility for measuring equivalent widths in 1D absorption spectra.
+[GVOD](https://github.com/kolecki4/GVOD): A utility for measuring equivalent widths in 1D absorption spectra.
 
-[PyKMOD](pykmod.md): This is a Kurucz (ATLAS) model atmosphere interpolator for Python, based on the original IDL tool written by Carlos Allende-Prieto. In development is an extension to PyKMOD for use with Phoenix type model atmospheres.
-
-### Bookmarks
-**(External links that, while not strictly academic in nature, are exoplanet-related and relatively interesting)**
-
-[Centauri Dreams](https://www.centauri-dreams.org/): A blog by author Paul Gilster summarizing academic papers realted to exoplanetary and space-travel-related sciences
-
-[NASA's Eyes On Exoplanets](https://exoplanets.nasa.gov/eyes-on-exoplanets/): High-quality 3D CGI visualizations of confirmed exoplanetary systems
+[PyKMOD](https://github.com/kolecki4/PyKMOD): This is a Kurucz (ATLAS) model atmosphere interpolator for Python, based on the original IDL tool written by Carlos Allende-Prieto, with recently added support for PHOENIX atmospheres.

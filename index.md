@@ -17,4 +17,4 @@
 
 [GVOD](https://github.com/kolecki4/GVOD): A utility for measuring equivalent widths in 1D absorption spectra.
 
-[PyKMOD](https://github.com/kolecki4/PyKMOD): This is a Kurucz (ATLAS) model atmosphere interpolator for Python, based on the original IDL tool written by Carlos Allende-Prieto, with recently added support for PHOENIX atmospheres.
+[PyKMOD](pykmod.html): This is a Kurucz (ATLAS) model atmosphere interpolator for Python, based on the original IDL tool written by Carlos Allende-Prieto, with recently added support for PHOENIX atmospheres.

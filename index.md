@@ -19,4 +19,4 @@
 
 [PyKMOD](pykmod.html): This is a Kurucz (ATLAS) model atmosphere interpolator for Python, based on the original IDL tool written by Carlos Allende-Prieto, with recently added support for PHOENIX atmospheres.
 
-<img src="assets/pain.gif" width="50" height="auto" alt="">
+<img src="assets/pain.gif" width="100" height="auto" alt="">

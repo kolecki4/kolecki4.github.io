@@ -1,31 +1,29 @@
----
----
-
-@import "{{ site.theme }}";
-
 body {
-	margin-left: 8%;
+    margin: auto;
 	margin-top: 30px;
-	margin-right: 8%;
-	color: #cccccc;
+    max-width: 800px;
+
 	font-family: Tahoma, sans-serif;
 
-	
-	#background: url("../../../MyFirstPaper.png");
 	background-image: linear-gradient(to right, #222222, #330033, #330033, #222222);
-	#background-repeat: no-repeat;
-	#background-size: 100%;
-	#background-color: #111111;
 }
 
 img{
-	float: left;
 	margin: 12px;
 }
 
 code{
 	background-color: #888888;
 	color: #220022;
+}
+
+dl{
+    color: #dddddd;
+    width: auto;
+    max-width: 600px;
+}
+dt{
+    font-weight: bold;
 }
 
 h1{
@@ -59,6 +57,61 @@ h6{
 	text-align: left;
 }
 
-a{
+p{
+	font-family: Tahoma,sans-serif;
+	color: #dddddd;
+	text-align: left;
+}
+
+a:link, a:visited, a:active{
 	color: #00beef;
+    text-decoration: none;
+}
+
+a:hover{
+	color: #00beef;
+    text-decoration: underline;
+}
+
+table{
+    margin: auto;
+    text-align: center;
+}
+
+#table a:link,#table a:active, #table a:visited{
+    font-family: Tahoma,sans-serif;
+    color: #dddddd;
+    padding: 5px 50px;
+    border: 1px solid #dddddd;
+    transition: 0.02s linear;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#table a:hover{
+    font-family: Tahoma,sans-serif;
+    color: #dddddd;
+    background-color: #dddddd33;
+    border: 1px solid #ffffff;
+    padding: 5px 50px;
+
+}
+
+button{
+    font-family: Tahoma,sans-serif;
+    color: #dddddd;
+    background-color: #660066;
+    padding: 4px 20px;
+    border: none;
+    border-radius: 2px;
+    transition: 0.05s linear;
+}
+
+button:hover{
+    font-family: Tahoma,sans-serif;
+    color: #dddddd;
+    background-color: #770077;
+    padding: 4px 20px;
+    border: none;
+    border-radius: 2px;
 }

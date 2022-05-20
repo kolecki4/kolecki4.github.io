@@ -1,8 +1,24 @@
 
 <head>
-<link href="assets/css/style.scss" rel="stylesheet"/>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Jared Kolecki</title>
+    <link href="assets/css/style.scss" rel="stylesheet"/>
+    <script>
+        function toggleTheme() {
+            // Obtains an array of all <link>
+            // elements.
+            // Select your element using indexing.
+            var theme = document.getElementsByTagName('link')[0];
+  
+            // Change the value of href attribute 
+            // to change the css sheet.
+            if (theme.getAttribute('href') == 'light.css') {
+                theme.setAttribute('href', 'dark.css');
+            } else {
+                theme.setAttribute('href', 'light.css');
+            }
+        }
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Jared Kolecki</title>
 </head>
 
 
@@ -24,13 +40,15 @@
             I'm currently working as a post-baccalaureate researcher at The Ohio State University, 
             where I completed my B.S. in Astronomy and Astrophysics with a minor in Computational 
             and Informational Sciences in December of 2020.
-            <br><br>
+        </p>
+        <p>
             My interests revolve around the field of exoplanets: discovering and characterizing them
             as well as their host stars. I find it incredibly interesting to imagine how similar or dissimilar
             other planetary systems are when compared to our own solar system. Quantifying how other solar
             systems may differ from our own can allow for deeper insight as to what they are actually like,
             which can produce some very interesting theories and discoveries.
-            <br><br>
+         </p>
+        <p>
             My research thus far has focused on getting metallicity and elemental abundance data
             for stars using optical and infrared spectroscopy. In this process, I have been developing 
             a framework based around PyMOOGi (Adamow 2017; madamow on Github) which automates much of the
@@ -40,6 +58,8 @@
             project involves expanding this functionality to include M-dwarfs, as these cool, dim stars
             have become prime targets for exoplanet surveys.
         </p>
-
-    <h3>Projects</h3>
+        <h3>To be continued ...</h3>
+ <!--   <h3>Projects</h3>
+ !   <img src="assets/Line.png" width="150px" height="auto">
+ !   <img src="assets/Line.png" width="150px" height="auto">>
 </body>

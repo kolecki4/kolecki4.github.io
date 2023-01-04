@@ -1,0 +1,245 @@
+body {
+    margin: auto;
+	margin-top: 30px;
+    //max-width: 1920px;
+
+	font-family: serif;
+
+
+	background-image: url("../images/BlinkiesAndSuch/stars.png");
+	background-repeat: repeat;
+	//background-size: 100%;
+	background-color: #000000;
+    background-position: center;
+    //background-image: linear-gradient(0deg,rgb(0,0,0), rgb(111,44,111));
+}
+
+marquee{
+font-size: 30px;
+font-weight: 800;
+color: #8ebf42;
+font-family: sans-serif;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+
+
+#body img{
+	float: left;
+	margin: 12px;
+    //border-style: inset;
+    //border-color: white;
+}
+
+.row{
+    width: 100%;
+    float: left;
+}
+
+
+table{
+    margin: auto;
+    text-align: center;
+}
+
+code{
+	background-color: #888888;
+	color: #220022;
+}
+
+h1{
+	font-family: serif;
+	color: #ffffff;
+	text-align: center;
+}
+h2{
+	font-family: serif;
+	color: #ffffff;
+	text-align: left;
+}
+h3{
+	font-family: serif;
+	color: #ffffff;
+	text-align: left;
+}
+h4{
+	font-family: serif;
+	color: #ffffff;
+	text-align: left;
+}
+h5{
+	font-family: serif;
+	color: #ffffff;
+	text-align: left;
+}
+h6{
+	font-family: serif;
+	color: #ffffff;
+	text-align: left;
+}
+
+p{
+	font-family: serif;
+	color: #ffffff;
+	text-align: left;
+}
+
+a{
+	color: #00beef;
+}
+
+// a{
+//     font-family: serif;
+//     color: #ffffff;
+//     padding: 4px 20px;
+//     background-color: #770077;
+//     border-style: outset;
+//     border-color: white;
+// }
+//
+// a:hover{
+//     font-family: serif;
+//     color: #ffffff;
+//     background-color: #990099;
+//     padding: 4px 20px;
+//     border-style: outset;
+//     border-color: white;
+// }
+//
+// a:active{
+//     font-family: serif;
+//     color: #ffffff;
+//     background-color: #770077;
+//     padding: 4px 20px;
+//     border-style: inset;
+//     border-color: white;
+// }
+
+
+.toplinks ul li{
+  display: inline-block;
+}
+
+.toplinks ul a{
+    font-family: serif;
+    color: #ffffff;
+    padding: 4px 20px;
+    background-color: #770077;
+    border-style: outset;
+    border-color: white;
+}
+
+.toplinks ul a:hover{
+    font-family: serif;
+    color: #ffffff;
+    background-color: #990099;
+    padding: 4px 20px;
+    border-style: outset;
+    border-color: white;
+}
+
+.toplinks ul a:active{
+    font-family: serif;
+    color: #ffffff;
+    background-color: #770077;
+    padding: 4px 20px;
+    border-style: inset;
+    border-color: white;
+}
+
+
+
+button{
+    font-family: Tahoma,sans-serif;
+    color: #FFFFFF;
+    background-color: #660066;
+    padding: 4px 20px;
+    border: 1px;
+    border-radius: 2px;
+    transition: 0.1s linear;
+}
+
+button:hover{
+    font-family: Tahoma,sans-serif;
+    color: #dddddd;
+    background-color: #770077;
+    padding: 4px 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+
+
+.column {
+  float: left;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.column p, h2, h3, h4, h5, h6 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.column.left img{
+    float: right;
+    align: right;
+}
+
+.column.right img{
+    float: left;
+    align: left;
+}
+
+.column.left {
+  float: left;
+  width: 25%;
+
+  // background-image: url("../images/spacebackground2.png");
+  // background-position: center;
+  // background-repeat: space;
+  // background-size: cover;
+  //padding: 5%;
+  //max-width: 400px;
+}
+
+.column.center {
+  float: left;
+  width: 50%;
+  //max-width: 800px;
+}
+
+.column.right {
+  float: left;
+  width: 25%;
+  //max-width: 400px;
+}
+
+@media screen and (max-width: 799px) {
+  .column.left, .column.center, .column.right {
+    width: 100%;
+    border: none;
+  }
+  .column.left .column.right img{
+      float: none;
+      align: none;
+  }
+
+  .toplinks ul{
+    max-width: 100%;
+    width: 100%;
+    word-wrap: break-word;
+  }
+
+}
+
+.toplinks{
+  width: 100%;
+  border-bottom: 1px solid #dddddd;
+  margin-top: 60px;
+  text-align: center;
+  //background-image: linear-gradient(0deg, rgba(255,255,255,.1),rgba(0,0,0,0));
+}

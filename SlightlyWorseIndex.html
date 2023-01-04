@@ -1,0 +1,87 @@
+
+<head>
+    <link href="css/slightly_worse_style.scss" rel="stylesheet"/>
+    <script>
+        function toggleTheme() {
+            // Obtains an array of all <link>
+            // elements.
+            // Select your element using indexing.
+            var theme = document.getElementsByTagName('link')[0];
+
+            // Change the value of href attribute
+            // to change the css sheet.
+            if (theme.getAttribute('href') == 'light.css') {
+                theme.setAttribute('href', 'dark.css');
+            } else {
+                theme.setAttribute('href', 'light.css');
+            }
+        }
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Jared Kolecki</title>
+</head>
+
+
+<body>
+  <div class="row">
+
+    <div class="toplinks">
+      <h1>Jared Kolecki's Home Page</h1>
+      <ul>
+        <li> <a target="_blank" href="astrowebindex/main.html" color="#dddddd">AstroWeb Index</a> </li>
+        <li> <a target="_blank" href="http://www.github.com/kolecki4">Github Profile</a> </li>
+        <li> <a target="_blank" href="https://ui.adsabs.harvard.edu/search/q=%20%20author%3A%22Kolecki%2C%20Jared%20R%22%20year%3A2020-2099&sort=date%20desc%2C%20bibcode%20desc&p_=0">Publications (ADS)</a> </li>
+      </ul>
+    </div>
+
+    <div class="column left">
+      <img src="images/spacebackground2.png"  width = 0px alt="" align="left" alpha="0">
+    </div>
+
+    <div class="column center">
+
+      <img src="images/MyFirstPaper.png" width="300" height="auto" alt="" align="left">
+
+      <h3>About Me</h3>
+          <p>
+              I'm currently working as a post-baccalaureate researcher at The Ohio State University,
+              where I completed my B.S. in Astronomy and Astrophysics with a minor in Computational
+              and Informational Sciences in December of 2020.
+          </p>
+          <p>
+              My interests revolve around the field of exoplanets: discovering and characterizing them
+              as well as their host stars. I find it incredibly interesting to imagine how similar or dissimilar
+              other planetary systems are when compared to our own solar system. Quantifying how other solar
+              systems may differ from our own can allow for deeper insight as to what they are actually like,
+              which can produce some very interesting theories and discoveries.
+           </p>
+          <p>
+              My research thus far has focused on getting metallicity and elemental abundance data
+              for stars using optical and infrared spectroscopy. In this process, I have been developing
+              a framework based around PyMOOGi (Adamow 2017; madamow on Github) which automates much of the
+              work associated with getting abundances. This includes calculating equivalent widths, deriving
+              stellar parameters, getting an appropriate model atmosphere, running MOOG, and finally,
+              calculation of uncertainties. While currently only suitably tested on FGK-dwarfs, my next
+              project involves expanding this functionality to include M-dwarfs, as these cool, dim stars
+              have become prime targets for exoplanet surveys.
+          </p>
+          <h3>To be continued ...</h3>
+    </div>
+
+    <div class="column right">
+
+      <!-- <p>lks;djfglk; jksdfg l;jksfg kjljsdffgkdgfhl;kdfg</p>
+      <h1>FFFFFFF </h1>
+      <h2>ddd</h2>
+      <h3>eee</h3>
+      <h4>eee</h4>
+      <h5>eee</h5>
+      <h6>eee</h6> -->
+    </div>
+
+  </div>
+
+ <!--   <h3>Projects</h3>
+ !   <img src="assets/Line.png" width="150px" height="auto">
+ !   <img src="assets/Line.png" width="150px" height="auto">>
+</body>

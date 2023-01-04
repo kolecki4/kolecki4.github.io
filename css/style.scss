@@ -148,7 +148,7 @@ table{
   //max-width: 400px;
 }
 
-@media screen and (max-width: 961px) {
+@media screen and ((max-width: 961px) or (hover:none)) {
   .column.left, .column.center, .column.right {
     width: 100%;
   }

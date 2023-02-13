@@ -20,9 +20,7 @@ code{
 dl{
     color: #dddddd;
     width: auto;
-    //padding-left: 30px;
-    //max-width: 600px;
-    text-align: center;
+    text-align: left;
 }
 dt{
     font-weight: bold;
@@ -62,12 +60,17 @@ table{
     margin: auto;
     text-align: center;
 }
+
 .toplinks{
   width: 100%;
-  //border-bottom: 1px solid #dddddd;
-  margin-top: 60px;
+  border-bottom: 1px solid #dddddd;
   text-align: left;
-  //background-image: linear-gradient(0deg, rgba(255,255,255,.1),rgba(0,0,0,0));
+  background: linear-gradient(0deg, rgba(255,255,255,.15),rgba(0,0,0,0)), linear-gradient(to right, #222222, #330033, #330033, #222222);
+  //background-image: ;
+  position: -webkit-sticky;
+  position: sticky;
+  //backdrop-filter: blur(2px);
+  top: 0;
 }
 
 .toplinks ul{
@@ -76,6 +79,7 @@ table{
 
 .toplinks ul li{
   display: inline-table;
+  line-height: 2.2;
 }
 
 .toplinks ul a:link, .toplinks ul a:active, .toplinks ul a:visited{
@@ -116,7 +120,6 @@ table{
 // }
 
 .column {
-  float: left;
   width: 100%;
 }
 
@@ -128,10 +131,6 @@ table{
 .column.left {
   float: left;
   width: 25%;
-  // background-image: url("../images/spacebackground2.png");
-  // background-position: center;
-  // background-repeat: space;
-  // background-size: cover;
   //padding: 5%;
   //max-width: 400px;
 }
@@ -139,6 +138,7 @@ table{
 .column.center {
   float: left;
   width: 50%;
+
   //max-width: 800px;
 }
 
@@ -148,7 +148,12 @@ table{
   //max-width: 400px;
 }
 
-@media screen and ((max-width: 961px) or (hover:none)) {
+.row {
+    width:100%;
+    display: table;
+}
+
+@media screen and ((max-width: 961px) or (hover: none)){
   .column.left, .column.center, .column.right {
     width: 100%;
   }

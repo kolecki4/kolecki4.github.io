@@ -558,6 +558,11 @@ footer ul li button:hover{
 }
 
 @media (max-width: 600px) {
+
+body{
+font-size: 1em;
+}
+
    .imgSideLeft, .imgSideRight{
     float: none;
     margin: auto;

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>AstroWeb Index</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" id="switcher-id" href="../../css/astrowebindex.scss">
+  <link rel="icon" href="../css/Astro.png">
+</head>
+
+
+<script src="./script.js"></script>
+
+
+
+<body>
+
+  <header>
+
+    <div class="title">
+
+      <h4> </h4>
+
+      <h1>The AstroWeb Index</h1>          
+
+      <h4 class="subtitle">A Compendium of Resources for Astrophysicists</h4>
+
+    </div>
+
+    <nav>
+  
+      <ul>
+        <li> <a class="navlink" href="./index.html">Home</a> </li>
+        <li> <a class="navlink" href="../index.html">Back</a> </li>
+        <li> <a class="navlink" href="mailto:jaredkolecki@gmail.com">Suggest Addition</a> </li>
+      </ul>
+    
+    </nav>
+
+
+  </header>
+
+
+
+  <section>
+
+
+    <div class="side left">
+      <h2> Entries by Topic </h2>
+
+      <dl>
+        <a href="#"><dt>Resources for Early Career Astronomers</dt>
+            <dd>All the secret yet super-helpful sites and sheets I didn't know about until someone told me about them.</dd></a>
+        <a href="../dataarchives/index.html"><dt>Telescope Data Archives</dt>
+            <dd>A one-stop shop for all your data needs!</dd></a>
+        <a href="../exoplanets/index.html"><dt>Exoplanets</dt>
+            <dd>Light curve/radial velocity analysis, n-body simulators, planet/atmosphere composition retrieval, and more!</dd></a>
+        <a href="../stellar/index.html"><dt>Stellar Astrophysics</dt>
+            <dd>Model atmospheres, synthetic spectra, radiative transfer code, chemical abundance analysis tools, etc.</dd></a>
+
+      </dl>
+      <!-- <img class="headerImg" src="blanklogo2.png" alt="" height="200em"  style="padding: 0em;padding-left:0em;display:block; margin: auto;"> -->
+
+      <!-- <dl>
+        <a href="research/index.html"> <dt>Research</dt> <dd>Learn more about what I do and why it matters!</dd> </a>
+        <a href="astrowebindex/index.html"> <dt>Astro Web Index</dt> <dd>A helpful index of sites for people like me</dd> </a>
+        <a href="exoplanetarium/index.html"> <dt>The Exoplanetarium</dt> <dd>A compendium of some of the most fascinating star systems in the galaxy</dd></a>
+        <a href="genealogy/index.html"> <dt>My Genealogy</dt>  <dd>Why it matters, and why it doesn't.</dd></a>
+        <a href="misc/index.html"> <dt>Miscellaneous</dt> <dd>A catch-all for anything that doesn't fit above</dd></a>
+  
+      </dl> -->
+    </div>
+
+
+    <article>
+      <h2>Resources For Early-Career Astronomers</h2>
+
+      <div class="content">
+            <h3>Graduate Applications</h3>            
+            <dl>
+              <div class="entry">
+                <dt> <a target="_blank" href="https://aas.org/learn/college-departments-offering-astronomy-related-degrees">AAS List of College Departments</a> </dt>
+                <dd> A comprehensive list of U.S. colleges and universities that offer undergraduate and/or graduate degrees in fields related to astronomy (astronomy, physics, planetary science, etc.)</dd>
+              </div>
+
+              <div class="entry">
+                <dt> <a target="_blank" href="https://docs.google.com/spreadsheets/d/19UhYToXOPZkZ3CM469ru3Uwk4584CmzZyAVVwQJJcyc/edit#gid=0">GRE Requirements and Admissions Fees</a> </dt>
+                <dd> A publicly-sourced spreadsheet of American and Canadian Physics/Astro programs, actively maintained as of the Fall 2022 admissions cycle</dd>
+              </div>
+
+              <div class="entry">
+                <dt> <a target="_blank" href="https://docs.google.com/spreadsheets/d/1nNnRPDikxgWCbVJzxfbDGxUgz3LcPgrnk-5gtToMmIQ/edit?usp=sharing">Personal Grad School List Template</a> </dt>
+                <dd> Copy-able spreadsheet for filling out when searching out prospective grad programs (courtesy of Alison Duck)</dd>
+              </div>
+
+              <div class="entry">
+                <dt> <a target="_blank" href="https://www.phdstipends.com/">PhD Stipends Database</a> </dt>
+                <dd> A student-sourced database of PhD stipend amounts for various fields broken down by university and department</dd>
+              </div>
+
+            
+            <h3>Career/Internship Opportunities</h3>
+            <dl>
+              <div class="entry">
+                <dt> <a target="_blank" href="https://jobregister.aas.org/">AAS Job Register</a> </dt>
+                <dd> Contains listings for positions ranging from technical and research staff to tenure-track faculty positions at academic and research institutions worldwide</dd>
+              </div>
+
+
+              <div class="entry">
+                <dt> <a target="_blank" href="https://www.phdstipends.com/">NASA Pathways Internships</a> </dt>
+                <dd> This is a program through which NASA hires undergraduate interns with the potential that they become full-time employees after graduation. Other internships and graduate fellowships can be found at <a target="_blank" href="intern.nasa.gov">NASA's internship homepage</a></dd>
+              </div>
+
+              <div class="entry">
+                <dt> <a target="_blank" href="https://www.geosociety.org/GSA/Education_Careers/Field_Experiences/sip/GSA/fieldexp/sip/home.aspx">Scientists in Parks</a> </dt>
+                <dd> Internships in various research, management, and outreach programs at U.S. National Parks</dd>
+              </div>
+
+      </div>
+
+    </article>
+
+    <div class="side right">
+
+      <!-- <img class="headerImg" src="blanklogo2.png" alt="" height="200em"  style="padding: 0em;padding-left:0em;display:block; margin: auto;"> -->
+
+
+    </div>
+
+  </section>
+
+  <footer>
+      <ul>
+        <li> <button id="G" onclick="setTheme('genealogy')">Genealogy</button> </li>
+        <li> <button id="G" onclick="setTheme('poster')">Poster</button> </li>
+        <li> <button id="G" onclick="setTheme('future')">Poster</button> </li>
+        <li> <a href="#" class="switch" data-theme="genealogy">Different "Themes"</a> </li>
+        <li> <a href="#" class="switch">For my homepage</a> </li>
+        <li> Copyright Symbol - Current Year</li>
+      </ul>
+  </footer>
+
+</body>
+</html>

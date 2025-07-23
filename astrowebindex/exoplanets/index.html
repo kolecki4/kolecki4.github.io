@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>AstroWeb Index</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" id="switcher-id" href="../../css/astrowebindex.scss">
+  <link rel="icon" href="../css/Astro.png">
+</head>
+
+
+<script src="./script.js"></script>
+
+
+
+<body>
+
+  <header>
+
+    <div class="title">
+
+      <h4> </h4>
+
+      <h1>The AstroWeb Index</h1>          
+
+      <h4 class="subtitle">A Compendium of Resources for Astrophysicists</h4>
+
+    </div>
+
+    <nav>
+  
+      <ul>
+        <li> <a class="navlink" href="./index.html">Home</a> </li>
+        <li> <a class="navlink" href="../index.html">Back</a> </li>
+        <li> <a class="navlink" href="mailto:jaredkolecki@gmail.com">Suggest Addition</a> </li>
+      </ul>
+    
+    </nav>
+
+
+  </header>
+
+
+
+  <section>
+
+
+    <div class="side left">
+      <h2> Entries by Topic </h2>
+
+      <dl>
+        <a href="../resources/index.html"><dt>Resources for Early Career Astronomers</dt>
+            <dd>All the secret yet super-helpful sites and sheets I didn't know about until someone told me about them.</dd></a>
+        <a href="../dataarchives/index.html"><dt>Telescope Data Archives</dt>
+            <dd>A one-stop shop for all your data needs!</dd></a>
+        <a href="#"><dt>Exoplanets</dt>
+            <dd>Light curve/radial velocity analysis, n-body simulators, planet/atmosphere composition retrieval, and more!</dd></a>
+        <a href="../stellar/index.html"><dt>Stellar Astrophysics</dt>
+            <dd>Model atmospheres, synthetic spectra, radiative transfer code, chemical abundance analysis tools, etc.</dd></a>
+
+      </dl>
+      <!-- <img class="headerImg" src="blanklogo2.png" alt="" height="200em"  style="padding: 0em;padding-left:0em;display:block; margin: auto;"> -->
+
+      <!-- <dl>
+        <a href="research/index.html"> <dt>Research</dt> <dd>Learn more about what I do and why it matters!</dd> </a>
+        <a href="astrowebindex/index.html"> <dt>Astro Web Index</dt> <dd>A helpful index of sites for people like me</dd> </a>
+        <a href="exoplanetarium/index.html"> <dt>The Exoplanetarium</dt> <dd>A compendium of some of the most fascinating star systems in the galaxy</dd></a>
+        <a href="genealogy/index.html"> <dt>My Genealogy</dt>  <dd>Why it matters, and why it doesn't.</dd></a>
+        <a href="misc/index.html"> <dt>Miscellaneous</dt> <dd>A catch-all for anything that doesn't fit above</dd></a>
+  
+      </dl> -->
+    </div>
+
+
+    <article>
+      <h2>Resources For Early-Career Astronomers</h2>
+
+      <div class="content">
+            <h3>Planet Detection</h3>            
+            <dl>
+                <div class="entry">
+                    <dt> <a target="_blank" href="https://docs.lightkurve.org/">Lightkurve</a> </dt>
+                    <dd> A utility for downloading & analyzing light curves and target pixel files from Kepler, K-2, and TESS</dd>
+                    <dd>(Python)</dd>
+                </div>
+                <div class="entry">
+                    <dt> <a target="_blank" href="https://github.com/rpoleski/MulensModel">MulensModel</a> </dt>
+                    <dd>  Modeling software for microlensing events </dd>
+                    <dd> <a target="_blank" href="https://ui.adsabs.harvard.edu/abs/2019A%26C....26...35P/abstract">Poleski & Yi 2019</a>(Python)  </dd>
+                </div>
+                <div class="entry">
+                    <dt> <a target="_blank" href="https://github.com/California-Planet-Search/rvsearch">RVSearch</a> </dt>
+                    <dd>  Uses models calculated by RadVel to search observations for periodic rv signals </dd>
+                    <dd> <a target="_blank" href="https://ui.adsabs.harvard.edu/abs/2021ApJS..255....8R/abstract">Rosenthal et al. 2021</a> (Python) </dd>
+                </div>
+                <div class="entry">
+                    <dt> <a target="_blank" href="https://github.com/hippke/wotan/">Wotan</a> </dt>
+                    <dd> Contains dozens of algorithms for reducing, detrending, and analyzing light curve data </dd>
+                    <dd> <a target="_blank" href="https://ui.adsabs.harvard.edu/abs/2019AJ....158..143H/abstract">Hippke et al. 2019</a> (Python) </dd>
+                </div>
+            </dl>
+            
+            <h3>Dynamical Modeling</h3>
+            <dl>
+                <div class="entry">
+                    <dt> <a target="_blank" href="https://github.com/California-Planet-Search/radvel/">RadVel</a> </dt>
+                    <dd> Keplerian modeling for exoplanet characterization based on radial velocity data </dd>
+                    <dd> <a target="_blank" href="https://ui.adsabs.harvard.edu/abs/2018PASP..130d4504F/abstract">Fulton et al. 2018</a> (Python) </dd>
+                </div>
+            </dl>
+
+            <h3>Composition and Spectrum Modeling</h3>
+            <dl>
+                <div class="entry">
+                    <dt> <a target="_blank" href="https://github.com/jdeast/EXOFASTv2/">EXOFASTv2</a> </dt>
+                    <dd> Powerful modeling software capable of modeling a planetary system based on input RV, transit, and astrometric data, as well as characterize the system's host star. Also offers a decent set of tutorials for new users </dd>
+                    <dd> <a target="_blank" href="https://ui.adsabs.harvard.edu/abs/2019arXiv190709480E/abstract">Eastman et al. 2019</a> (IDL) </dd>
+                </div>
+
+                <div class="entry">
+                    <dt> <a target="_blank" href="https://petitradtrans.readthedocs.io/en/latest/">petitRADTRANS</a> </dt>
+                    <dd>  Software for computing transmission and emission spectra of exoplanets </dd>
+                    <dd> <a target="_blank" href="https://ui.adsabs.harvard.edu/abs/2018PASP..130d4504F/abstract">Fulton et al. 2018</a> (Python)</dd>
+                </div>
+
+            </dl>
+
+
+      </div>
+
+    </article>
+
+    <div class="side right">
+
+      <!-- <img class="headerImg" src="blanklogo2.png" alt="" height="200em"  style="padding: 0em;padding-left:0em;display:block; margin: auto;"> -->
+
+
+    </div>
+
+  </section>
+
+  <footer>
+      <ul>
+        <li> <button id="G" onclick="setTheme('genealogy')">Genealogy</button> </li>
+        <li> <button id="G" onclick="setTheme('poster')">Poster</button> </li>
+        <li> <button id="G" onclick="setTheme('future')">Poster</button> </li>
+        <li> <a href="#" class="switch" data-theme="genealogy">Different "Themes"</a> </li>
+        <li> <a href="#" class="switch">For my homepage</a> </li>
+        <li> Copyright Symbol - Current Year</li>
+      </ul>
+  </footer>
+
+</body>
+</html>

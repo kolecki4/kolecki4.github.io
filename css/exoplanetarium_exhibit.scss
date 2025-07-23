@@ -1,0 +1,333 @@
+@font-face {
+    font-family: "URWGothic";
+    src: url("./URWGothic-Demi.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "URWGothicThin";
+    src: url("./URWGothic-Book.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("./Ubuntu.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Liberation";
+    src: url("./LiberationSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "LSBold";
+    src: url("./LiberationSans-Bold.ttf") format("truetype");
+}
+
+/*      **************************************      */ 
+/*      ********* Page-wide Stylings *********      */ 
+/*      **************************************      */ 
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: auto;
+    //width: 100%;
+        font-family: sans-serif;
+    font-size: larger;
+    background: #24021f;
+    background: url("draft7-unbordered.png");
+
+    //background: linear-gradient(90deg, #bbb, #444 25%, #444 75% #bbb);
+        //background: url("./KPF_SoCal_20230924_Mug_Print2.png");
+    //background: #222c;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-repeat: none;
+    background-size: 100%;
+}
+
+
+
+
+img{
+    //padding: 1em;
+    display: inline;
+    //float: left;
+}
+
+
+h1{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: normal;
+    color: #fff;
+
+//  display: inline-block;
+    //text-align: left;
+}
+
+
+h2, h3, h4, h5, h6{
+    font-weight: normal;
+
+    font-family: "Ubuntu", sans-serif;
+    color: #ddd;
+    text-align: left;
+    margin: 0px;
+}
+
+p{
+    font-family: "Ubuntu", sans-serif;
+    color: #eee;
+    text-align: left;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family:  "Tahoma", sans-serif;
+    font-size: 1.6em;
+    color: #eee;
+}
+
+
+nav ul{
+  text-align: left;
+  display: inline-block;
+
+  list-style-type: none;
+  width: 100%;
+  margin: auto;
+  padding-right: 1.5em;
+  margin-left: 4.5em;
+    
+    border-left: 2px solid #ddd;  
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+
+  //  position: sticky;
+  //  top: 0;
+}
+
+nav{
+    position: sticky;
+    top: 0.8em;
+    font-size: 0.8em;
+}
+nav ul li{
+  display: inline-block;
+  //font-size: 1.em;
+  text-align: center;
+  //line-height: 2.2;
+  margin: 5px;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+  
+}
+nav ul .navlink:link, nav ul .navlink:active, nav ul .navlink:visited, nav ul .navlink:hover{
+    text-decoration: none;
+    color: #eee;
+
+    padding-top:0.75em;
+    padding-bottom:0.75em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border: 2px solid #0000;
+
+    //border: 1px solid #dddd;
+    border-radius: 4px;
+    transition:0.4s  cubic-bezier(0.19, 1, 0.22, 1);
+}
+nav ul .navlink:hover{
+    color: #fff;
+    border: 2px solid #ddd;
+    //text-decoration: underline;
+    background-color: #ddd2;
+
+    //border-color: #fff;
+}
+
+
+
+.planetList{
+    display: block;
+    border: 2px solid #ddd;
+}
+
+.planetList .planet{
+    margin: 0.5em;
+}
+
+.planetList .planet .stat{
+    text-align: justify;
+    margin:0;
+}
+
+.planetList .planet{
+    display: inline-block;
+}
+
+
+
+
+
+
+.row{
+    display: block;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    height: 100vh;
+
+    background-color: #24021f;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+}
+
+
+.row.title {
+    background: none;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment:fixed;
+
+}
+
+.row .text{
+    -webkit-box-flex: 2;
+    -moz-box-flex: 2;         
+    -webkit-flex: 2;          
+    -ms-flex: 2;              
+    flex: 2; 
+    height: 100%;
+
+}
+.row .image{
+    -webkit-box-flex: 3;
+    -moz-box-flex: 3;         
+    -webkit-flex: 3;          
+    -ms-flex: 3;              
+    flex: 3; 
+    height: 100%;
+    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    background-size: 60% auto;
+
+}
+
+
+.row .image.wide{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+
+}
+
+.row .text h1{
+    font-size: 6em;
+    //display: inline;
+    //vertical-align: middle;
+    margin: 0;
+    line-height: 125vh;
+}
+
+.row .text .textcontainer {
+    position: sticky;
+    top: 0em;
+    padding: 1.5em;
+    overflow: auto;
+    background-color: #24021f;
+    width: 100%;
+}
+
+
+
+.coords{
+    margin: 20px; 
+    width: 20%; 
+    float: right;
+}
+
+.overflow-scroll{
+    overflow-x: scroll;
+}
+
+table{
+    padding: 1.5em;
+    text-align: center;
+    float: left;
+    line-height: 2;
+    overflow-x: scroll;
+    max-width:100%;
+}
+
+table, th, td {
+  border-bottom: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+table tr th{
+    padding-left: 20px;
+    padding-right: 20px;
+
+    color: #ddd;
+    text-align: right;
+    //border-bottom: 1px solid #ddd;
+}
+
+table tr td{
+    padding-left: 20px;
+    padding-right: 20px;
+    //border-bottom: 1px solid #ddd;
+
+    color: #ddd;
+    text-align: right;
+    overflow: hidden;
+}
+
+@media (max-width: 961px) {
+    .row {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    }
+    .row .text{
+        flex: 27;
+        min-height: 125vh;
+    }
+    .row .text.dummy {
+        flex: 0;
+        height: 0;
+        min-height: 0;
+    }
+    .row .image{
+        min-height: 125vh;
+
+        background-size: 100% auto;
+    
+    }
+
+    .row .text h1{
+        font-size: 4em;
+        //display: inline;
+        //vertical-align: middle;
+        margin: 0;
+        text-align: center;
+        line-height: 125vh;
+    }
+    
+}

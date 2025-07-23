@@ -1,89 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <link href="css/style.scss" rel="stylesheet"/>
-    <script>
-        function toggleTheme() {
-            // Obtains an array of all <link>
-            // elements.
-            // Select your element using indexing.
-            var theme = document.getElementsByTagName('link')[0];
+  <title>Jared Kolecki</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" id="switcher-id" href="./css/poster.scss">
+  <link rel="icon" href="./css/Astro.png">
 
-            // Change the value of href attribute
-            // to change the css sheet.
-            if (theme.getAttribute('href') == 'light.css') {
-                theme.setAttribute('href', 'dark.css');
-            } else {
-                theme.setAttribute('href', 'light.css');
-            }
-        }
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Jared Kolecki</title>
 </head>
+
+
+<script src="./script.js"></script>
+
 
 
 <body>
 
-    <div class="toplinks">
-      <h1>Jared Kolecki's Home Page</h1>
+  <map name="map">
+    <area shape="rect" coords="0,0,1111,1111" alt="Computer" href="newmain.html">
+  </map>
+    
+
+  <header>
+
+    <div class="title">
+
+      <h4>Welcome to the home page of</h4>
+      <h1>Jared Kolecki</h1>          
+      <h4 class="subtitle">Physics & Astronomy Ph.D Student at the University of Notre Dame</h4>
+
+    </div>
+
+    <nav>
+  
+      <!-- Kinda like a linktree -->
       <ul>
-        <li> <a target="_blank" href="astrowebindex/main.html">AstroWeb Index</a> </li>
-        <li> <a target="_blank" href="http://www.github.com/kolecki4">Github Profile</a> </li>
-        <li> <a target="_blank" href="https://ui.adsabs.harvard.edu/search/q=%20%20author%3A%22Kolecki%2C%20Jared%20R%22%20year%3A2020-2099&sort=date%20desc%2C%20bibcode%20desc&p_=0">Publications (ADS)</a> </li>
-        <li> <a target="_blank" href="Jared Kolecki - Resume.pdf">My Resume</a> </li>
-        <li> <a target="_blank" href="mailto:jaredkolecki@gmail.com">Contact Me</a> </li>
+        <!-- <li> <a class="navlink" href="research.html">My Research</a> </li> -->
+        <li> <a class="navlink" target="_blank" href="http://www.github.com/kolecki4">Github Profile</a> </li>
+        <li> <a class="navlink" target="_blank" href="https://ui.adsabs.harvard.edu/search/q=%20%20author%3A%22Kolecki%2C%20Jared%20R%22%20year%3A2020-2099&sort=date%20desc%2C%20bibcode%20desc&p_=0">Publications (ADS)</a> </li>
+        <li> <a class="navlink" href="Jared Kolecki - Resume.pdf">My Resume</a> </li>
+        <li> <a class="navlink" href="mailto:jaredkolecki@gmail.com">Contact Me</a> </li>
       </ul>
+    
+    </nav>
+
+
+  </header>
+
+
+
+  <section>
+
+
+    <div class="side left">
+
+      <!-- <img class="headerImg" src="blanklogo2.png" alt="" height="200em"  style="padding: 0em;padding-left:0em;display:block; margin: auto;"> -->
+      <h2>My Projects</h2>
+
+        <dl>
+            <!--Each description list entry should be formatted like this: -->
+            <!--<a href="http://www.github.com/kolecki4"> <dt><b>Research</b></dt> <dd>Learn more about what I do and why it matters!</dd> </a>-->
+          <a href="research/index.html"> <dt>Research</dt> <dd>Learn more about what I do and why it matters!</dd> </a>
+          <a href="astrowebindex/index.html"> <dt>Astro Web Index</dt> <dd>A helpful catalog of websites for astronomers who want to find things</dd> </a>
+          <a href="exoplanetarium/index.html"> <dt>The Exoplanetarium</dt> <dd>A field guide to some of the most fascinating star systems in the galaxy</dd></a>
+          <!-- <a href="genealogy/index.html"> <dt>My Genealogy</dt>  <dd>Why it matters, and why it doesn't.</dd></a> -->
+          <a href="misc/index.html"> <dt>Miscellaneous</dt> <dd>For anything <i>not</i> astrophysics related</dd></a>
+      
+        </dl>
     </div>
 
-  <div class="row">
-    <div class="column left">
-        <p></p>
-    </div>
 
-    <div class="column center">
+    <article>
+      <h2>About Me</h2>
 
-      <img src="images/MyFirstPaper.png" width="300" height="auto" alt="" align="left">
+      <div class="content">
+          <div class="imgSideRight">
+          <img  src="me.jpg" alt="Jared Kolecki" height="225px">
+          <p class="caption"></p>
+          </div>  
 
-      <h3>About Me</h3>
-          <p>
-              I'm a grad student at the University of Notre Dame now! Prior to this I was a post-baccalaureate
-              researcher at The Ohio State University, where I completed my B.S. in Astronomy and Astrophysics
-               with a minor in Computational and Informational Sciences in December of 2020.
-          </p>
-          <p>
-              My interest in astronomy centers around the field of exoplanets. What excites me the most about
-              this rapidly progressing field is the potential to characterize planets that we've already discovered
-              better than ever thought possible before. For example, we may know a planet's mass, radius, orbital period.
-              But what does that actually tell us about the planet? Sure, this information will tell us whether the planet
-              bears moreso a vague resemblance to, say, Jupiter or Earth, for example, or how hot the planet is.
-              </p>
-              <p>
-              However, only
-              recently have spectroscopic techniques and instrumentation progressed to the point that we might actually
-              be able to find out what these planets are made of, whether they have cloudy atmospheres, or atmospheres at all
-              for that matter. With this new knowledge, it will become easier than ever to imagine seeing these planets with
-              our own eyes. No longer will the "artist's conception" be based purely on imagination, but on real data, such that
-              we will be able to know exactly what to expect should humanity ever find the want, or the need, to visit these
-              worlds.
-           </p>
+        <p>
+          My research intersects the booming fields of exoplanet characterization and
+          galactic chemical evolution. I analyze spectra of planet-hosting stars to draw connections 
+          between the compositions of these stars, and the planets that orbit them. Outside of purely scientific
+          endeavors, I've developed a passion for community building as a graduate student. For example, I
+          helped refurbish the disused Notre Dame physics library into a community space for undergraduates and 
+          grad students alike. I can't possibly list all my interests and undertakings in just this 
+          short paragraph. So please, feel free to explore my projects and enjoy your stay in my little 
+          corner of the web.
+        </p>
 
-    </div>
-
-    <div class="column right">
-    </div>
-
-  </div>
-
-  <div class="row">
-      <div class="column left">
-          <p></p>
       </div>
 
-      <div class="column center">
-      </div>
+    </article>
 
-      <div class="column right">
-          <p></p>
-      </div>
-  </div>
+    <div class="side right">
+
+      <!-- <img class="headerImg" src="blanklogo2.png" alt="" height="200em"  style="padding: 0em;padding-left:0em;display:block; margin: auto;"> -->
+
+
+    </div>
+
+  </section>
+
+  <footer>
+      <ul>
+        <li> <button id="G" onclick="setTheme('poster')">Poster</button> </li>
+        <li> <button id="G" onclick="setTheme('exo')">Exoplanetarium</button> </li>
+        <li> <button id="G" onclick="setTheme('astrowebindex')">AstroWebIndex</button> </li>
+        <!-- <li> <button id="G" onclick="setTheme('genealogy')">Genealogy</button> </li> -->
+
+        <li> (Themes are all my work <br> and are still a work in progress!)</li>
+      </ul>
+  </footer>
+
 </body>
+</html>
